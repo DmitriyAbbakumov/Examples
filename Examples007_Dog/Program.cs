@@ -1,10 +1,10 @@
 ﻿int count = 0;
-int D = 10000; //расстояние между друзьями
+double D = 10000; //расстояние между друзьями
 int S1 = 1; // скорость первого друга
 int S2 = 2; // скорость второго друга
 int Sd = 5; //скорость собаки
 int F = 2;
-int T = 0;
+double T = 0;
 
 while (D > 10)
 {
@@ -18,8 +18,8 @@ while (D > 10)
         T = D / (S2 + Sd);
         F = 1;       
     }
-D = D - (S1 + S2)*T;
-count++;
+    D = D - (S1 + S2)*T;
+    count++;
 }
 Console.Write("Собака пробежала ");
 Console.Write(count);
