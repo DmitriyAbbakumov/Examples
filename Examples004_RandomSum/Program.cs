@@ -1,0 +1,10 @@
+﻿double NumberA = new Random().Next(1, 10);
+Console.Write("Первое число = ");
+Console.WriteLine(NumberA);
+double NumberB = new Random().Next(1, 10);
+Console.Write("Второе число = ");
+Console.WriteLine(NumberB);
+Console.Write("Сумма = ");
+Console.WriteLine(NumberA + NumberB);
+Console.Write("Деление = ");
+Console.WriteLine(NumberA / NumberB);
