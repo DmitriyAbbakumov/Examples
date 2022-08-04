@@ -1,10 +1,15 @@
-﻿int count = 0;
-double D = 10000; //расстояние между друзьями
-int S1 = 1; // скорость первого друга
-int S2 = 2; // скорость второго друга
-int Sd = 5; //скорость собаки
+﻿Console.Write("Введите расстояние между друзьями: ");
+int D = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите скорость первого друга: ");
+int S1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите скорость второго друга: ");
+int S2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите скорость собаки: ");
+int Sd = Convert.ToInt32(Console.ReadLine());
+
+int count = 0;
 int F = 2;
-double T = 0;
+int T = 0;
 
 while (D > 10)
 {
