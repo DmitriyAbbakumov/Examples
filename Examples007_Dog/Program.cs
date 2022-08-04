@@ -12,17 +12,14 @@ while (D > 10)
     {
         T = D / (S1 + Sd);
         F = 2;
-        D = D - (S1 + S2)*T;
-        count++;
     }
     else
     {
         T = D / (S2 + Sd);
-        F = 1;
-        D = D - (S1 + S2)*T;
-        count++;
+        F = 1;       
     }
-
+D = D - (S1 + S2)*T;
+count++;
 }
 Console.Write("Собака пробежала ");
 Console.Write(count);
