@@ -6,12 +6,14 @@ Console.Write("Введите скорость второго друга: ");
 int S2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите скорость собаки: ");
 int Sd = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите конечное расстояние между друзьями: ");
+int D1 = Convert.ToInt32(Console.ReadLine());
 
 int count = 0;
 int F = 2;
 int T = 0;
 
-while (D > 10)
+while (D > D1)
 {
     if (F == 1)
     {
