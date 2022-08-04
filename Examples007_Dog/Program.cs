@@ -28,6 +28,6 @@ while (D > D1)
     D = D - (S1 + S2)*T;
     count++;
 }
-Console.Write("Собака пробежала ");
-Console.Write(count);
-Console.Write(" раз ");
+Console.Write ("Собака пробежала ");
+Console.Write (count);
+Console.Write (" раз ");
